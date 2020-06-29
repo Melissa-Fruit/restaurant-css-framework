@@ -15,8 +15,8 @@
   <!--contenue du site-->
   <body>
       <!--header-->
-    <header class="container-fluid header">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
+    <header class="container-fluid header mb-0">
+      <nav class="navbar navbar-inverse navbar-fixed-top mb-0">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">Malisse</a>
@@ -34,7 +34,7 @@
 
 
       <!--jumbotron / baniere-->
-      <div class="jumbotron" style="background-image: url(img/pates-pizza.jpg); no-repeat center center fixed;">
+      <div class="jumbotron pt-5 pb-5" style="background-image: url(img/pates-pizza.jpg);">
 
         <h1 class="display-4">Malisse</h1>
         <p class="ban">Italian Restaurant.</p>
@@ -55,44 +55,100 @@
 
     <section class="row">
 
+    <!-- Grid column -->
       <div class="col-lg-5">
-  <div class="mx-auto" style="width: 200px;">
 
         <h2>Plats du jour</h2>
         <span class="border border-white">
-        <img src="img/pasta-di-mare.jpg" alt="assiete de pasta di mare">
+        <img class="mt-3 mb-3" src="img/pasta-di-mare.jpg" alt="assiete de pasta di mare">
         </span>
-          <p class="gras">Pasta di mare (pates fraiches faites maison !)</p>
+          <p class="gras">Pasta di mare</p>
           <p class="big">10 Euro</p>
 
-        <img src="img/buffet-froid.jpg" alt="buffet-froid">
+        <img class="mt-3 mb-3" src="img/buffet-froid.jpg" alt="buffet-froid">
             <p class="gras">Plats froid</p>
             <p class="big">8 Euro</p>
 
-      </div>
+    
 </div>
+   <!-- end Grid column -->
 
-  <div class="col-lg-2"></div>
+   <!-- Grid column -->
+     <div class="col-lg-2"></div>
 
       <div class="col-lg-5">
         <h2>Promotion Pizza à Emporter</h2>
-        <img src="img/Pizza-margarita.jpg" alt="Pizza-margarita">
+        <img class="mt-3 mb-3" src="img/Pizza-margarita-originale.jpg" alt="Pizza-margarita">
           <p class="gras">Pizza-margarita</p>
           <p class="big">10 Euro</p>
-        <img src="img/tiramisu.jpg" alt="tiramisu">
-          <p class="big">1 Tiramisu gratuit a l'achat d'une grande pizza</p>
+        <img class="mt-3 mb-3" src="img/tiramisu.jpg" alt="tiramisu">
+          <p class="gras">A l'achat d'une grande pizza:</p>
+          <p class="mb-3 big">1 Tiramisu gratuit</p>
       </div>
-
+   <!-- end Grid column -->
 
     </section>
         </div>
     <!-- end panels / promo-->
 
     <!--footer / contact-->
-    <footer class="container-fluid footer">
+
+      <footer class=" page-footer">
+        <div class="container-fluid text-center text-md-left">
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-3 -md-0">
+
+              <!-- Content -->
+              <h5 class=" text-uppercase">Restaurant Italien</h5>
+              <img class="logo" src="img/logo-malisse.png" alt="logo du restaurant Malisse">
+              <p>La cuisine Italienne faites avec amour.</p>
+
+            </div>
+            <!-- Grid column -->
 
 
 
-    </footer>
+            <!-- Grid column -->
+            <div class="col-m-3 mt-3 -md-0 mb-3">
+
+              <!-- Links -->
+              <h5 class="text-uppercase">Adresse</h5>
+
+                <h6>Malisse</h6>
+                <p>Rue Neuve 123</p>
+                <p>1000  Bruxelles</p>
+                <h5 class="text-uppercase">Vous désirée reserver ou des information:</h5>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#contact.css">N'hesiter pas à nous contacter</a>
+                  </li>
+
+
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+
+
+          </div>
+          <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:reseved to Malisse
+
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+      <!-- Footer -->
   </body>
 </html>

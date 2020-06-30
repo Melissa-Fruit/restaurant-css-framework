@@ -1,5 +1,7 @@
 # Bienvenue sur restaurant-css-framework
 
+Liens vers le site: https://melissa-fruit.github.io/restaurant-css-framework/.
+
 *C'est un exercise BeCode pour apprendre Bootstrap:*
 
 1. Créer un site de restauront

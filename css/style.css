@@ -104,7 +104,7 @@ border-radius: 5px;
   height: 100%
 
 }
-ul li {
+.list {
   color: white;
   font-size: 25px;
   font-weight: 400;

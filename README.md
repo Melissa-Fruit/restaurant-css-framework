@@ -1,4 +1,4 @@
-# Bienvnue sur restaurant-css-framework
+# Bienvenue sur restaurant-css-framework
 
 *C'est un exercise BeCode pour apprendre Bootstrap:*
 
@@ -10,7 +10,7 @@
    1. Ecrire un bon README
    1. Mention et url au top du repository
 
-**Temps de l': 4 jours**
+**Temps de l'exercise: 4 jours**
 
 ![GitHub Logo](/img/logo-malisse.png)
 

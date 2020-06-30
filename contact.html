@@ -5,6 +5,7 @@
     <title>Mon restaurant</title>
     <!--font-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--css-->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -13,7 +14,7 @@
   </head>
 
   <!--contenue du site-->
-  <body>
+  <body >
       <!--header-->
     <header class="container-fluid header">
       <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -34,7 +35,7 @@
 
 
       <!--jumbotron / baniere-->
-      <div class="jumbotron mt-5 mb-5" style="background-image: url(img/pates-pizza.jpg); no-repeat center center fixed;">
+      <div class="jumbotron mt-5 mb-5" style="background-image: url(img/pates-pizza.jpg);">
 
         <h1 class="display-4">Malisse</h1>
         <p class="ban">Italian Restaurant.</p>
@@ -47,12 +48,57 @@
     <!--end header-->
 
 
-    <!--a propos-->
-    <section class="container about">
+    <!--form-->
+      <div class="container formulaire pl-5 pr-5">
+    <form class="col-lg-6 formu mt-3 mb-3  ml-1 mr-1" action="#">
+        <h2 class="mt-3 mb-3">Contactez-nous</h2>
+        <div class="form-group">
+            <label for="fname" class="control-label col-sm-4 formu">First Name</label>
+            <input type="text" class="form-control col-sm-4" id="fname" placeholder="First name">
+        </div>
+        <div class="form-group">
+            <label for="lname" class="control-label col-sm-4 formu">Last Name</label>
+            <input type="text" class="form-control col-sm-4" id="lname" placeholder="Last name">
+        </div>
+        <div class="form-group">
+            <label for="email" class="control-label col-sm-4 formu">Email</label>
+            <input type="email" class="form-control col-sm-4" id="email" placeholder="Your email">
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="sel1">Sujet:</label>
+           <select class="form-control" id="sel1">
+              <option>Réservation</option>
+              <option>A emporter</option>
+              <option>Plainte</option>
+              <option>Autre</option>
+           </select>
+        </div>
 
 
-    </section>
-    <!-- end a propos-->
+        <div class="form-group">
+              <label class="control-label col-sm-4 formu" for="comment">Message:</label>
+              <textarea class="form-control" rows="5" id="comment" placeholder="Enter message"></textarea>
+            </div>
+        <div class="form-group">
+            <label for="password" class="control-label col-sm-4 formu">Password</label>
+            <input type="email" class="form-control col-sm-4" id="password" placeholder="Your password">
+        </div>
+        <div class="col-sm-offset-2 col-sm-10 mt-3 mb-3">
+            <button class="btn btn-danger"><i class="fa fa-envelope-open-o" aria-hidden="true"></i> Envoyer</button>
+        </div>
+
+    </form>
+
+
+         <div class="col-lg-4 formu mt-3 mb-3  ml-1 mr-1">
+
+           <img class="ml-1 mr-1 mt-6 mb-6" src="img/pizza-feu.jpg" alt="cuisson pizza au feu de bois">
+
+        </div>
+
+</div>
+
+    <!-- end form-->
 
     <!--footer / contact-->
 
@@ -73,8 +119,6 @@
             </div>
             <!-- Grid column -->
 
-
-
             <!-- Grid column -->
             <div class="col-m-3 mt-3 -md-0 mb-3">
 
@@ -91,13 +135,10 @@
                     <a href="#contact.css">N'hesiter pas à nous contacter</a>
                   </li>
 
-
                 </ul>
 
             </div>
             <!-- Grid column -->
-
-
 
           </div>
           <!-- Grid row -->
